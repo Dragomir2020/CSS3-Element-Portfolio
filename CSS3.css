@@ -1,16 +1,23 @@
+body{
+	background:#1b4e5e ;
+}
+
 #box {
     background: red;
     height: 150px;
     width: 50%;
     margin: 40px auto;
-    box-sizing: border-box; /* CSS3 */
-    padding: 50px; /* Now does't adjust height and width */
+    box-sizing: border-box; /* CSS3 */ 
+    padding: 35px; /* Now does't adjust height and width */
     border-radius: 20px; /* Adds rounded corners */
     -moz-border-radius: 20px; /* Mozilla Support */
     -webkit-border-radius: 20px;
     text-align: center;
-    line-height: 10px;
+    line-height: 2em; 
     color: white;
+}
+#box h1 {
+	display: inline-block;
 }
 
 #cont1 {
@@ -24,10 +31,9 @@ body #colors {
     background: rgba(25,52,84,1); /* CSS3 */
     /* Last value is alpha channel which adjusts how transparent the color is */
     color: white;
-    height: 470px;
+    padding-bottom: 75px;
     border-bottom: dashed 5px white;
 	padding: 50px;
-	padding-bottom: 0px;
 }
 
 #colors #container {
@@ -61,10 +67,11 @@ body #colors {
     padding: 10px;
     border: solid 5px white;
 }
-/* Style third section */
+/* Style Blog section */
 body #blog {
 	background: #f2f2f2;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 body #blog #cont2 {
@@ -73,13 +80,13 @@ body #blog #cont2 {
 	background: url('Texture-26.png') top left;
 	background-size: 100%;
 	border: solid 2px gray;
+	padding-bottom: 15px;
 }
 body #blog #color-background {
 	background-color: rgb(255,255,255);
 	width: 50%;
 	margin: auto;
-	position: relative;
-	top: 100px;
+	box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
 }
 body #blog h4 {
 	margin: 30px 30px;
@@ -91,8 +98,15 @@ body #blog p {
 	margin-left: 30px;
 	margin-right: 20px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	font-size: 18px;
 	font-family: monaco, monospace;
+}
+
+body #blog small {
+	margin-left: 30px;
+	font-size: 14px;
+	font-family: Helvetica, Times, sans-serif;
 }
 
 
@@ -106,7 +120,7 @@ a:link {
 }
 a:visited {color: black;}
 a:hover {color: #1e6169;}
-nav{text-align: center;}
+nav{text-align: left;}
 nav a {font-weight: bold;}
 
 nav li {
@@ -128,17 +142,11 @@ nav ul {
 /* Format Buttons */
 
 body #button {
-	background-color: purple;
+	background-color: #ff6d09;
 	padding: 100px;
 	height: 200px;
 }
 
-body .button-box {
-	background-color: red;
-	width: 94%;
-	display: inline-block;
-	margin: 10px;
-}
 
 body #button-container {
 	background: white;
@@ -150,18 +158,169 @@ body #button-container {
 body #button h3 {
 	color: white;
 	text-align: center;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 body #button-container #right {
 	background: black;
 	float: right;
-	width: 40%;
-	margin: 25px;
+	width: 45%;
+	margin-right: 2%; 
+	margin-top: 13px;
 }
 body #button-container #left {
 	background: black;
 	float: left;
-	width: 40%;
-	margin: 25px;
+	width: 45%;
+	margin-left: 2%; 
+	margin-top: 13px;
+}
+.button {
+	background-color: #ffe93b;
+	width: 90%;
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	background: linear-gradient(#fc3,#f91);
+	border: solid 1px #999;
+	border-radius: 15px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	font-size: 16px;
+}
+
+/* Format button 1 */
+#button #button1:link {
+    color: white;
+    font-family: Courier;
+    font: bold;
+    text-decoration: none; /* Removes the Underlined */
+    text-transform: lowercase;
+}
+#button #button1:visited {color: white;}
+#button #button1:hover {color: white;}
+#button #button1:active {
+	position: relative;
+	top: 2px;
+	
+}
+
+/* Format button 2 */
+#button #button2:link {
+    color: white;
+    font-family: Courier;
+    font: bold;
+    text-decoration: none; /* Removes the Underlined */
+    text-transform: lowercase;
+}
+#button #button2:visited {color: white;}
+#button #button2:hover {
+	color: white;
+	border-color: #333;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.9);
+	background: linear-gradient(to top ,#fc3,#f91);
 }
 
 
+/* Format button 3 */
+#button #button3:link {
+    color: white;
+    font-family: Courier;
+    font: bold;
+    text-decoration: none; /* Removes the Underlined */
+    text-transform: lowercase;
+}
+#button #button3:visited {color: white;}
+#button #button3:hover {
+	color: white;
+	box-shadow: 0px 0px 5px 2px white;
+}
+
+/* Format button 4 */
+#button #button4:link {
+    color: white;
+    font-family: Courier;
+    font: bold;
+    text-decoration: none; /* Removes the Underlined */
+    text-transform: lowercase;
+}
+#button #button4:visited {color: white;}
+#button #button4:hover {color: black;}
+
+
+/* Style Shadows Container */
+body #shadows #shadows-container {
+	width: 75%;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #fc3;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	/* X Y Blur Color */
+}
+body #shadows {
+	background: orange;
+	padding: 50px;
+}
+#shadows h1 {
+	margin-left: 30px;
+	color: white;
+	/*Add contrast with shadow */
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	/* X Y Blur Spread Color */
+	letter-spacing: 1px;
+}
+#shadows p {
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-family: monaco, monospace;
+}
+/* Shadows image */
+#shadows #img_shadows h1 {
+	text-align: center;
+}
+body #shadows {
+	background-color: #300f9a;
+}
+#shadows #img_shadows img {
+	display: block;
+	width: 75%;
+	height: auto; 
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+	margin: auto;
+}
+#columns {
+	background: #DD004A;
+	width: 90%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+#columns h1{
+	color: white;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	padding: 20px 20px 0px;
+}
+#three-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	
+	column-gap: 30px;
+	-moz-column-gap: 30px;
+	-webkit-column-gap: 30px;
+	
+	color: white;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	margin: 20px;
+	
+	column-rule-style: solid;
+	-moz-column-rule-style: solid;
+	-webkit-column-rule-style: solid;
+	
+	column-rule-width: 2px;
+	-moz-column-rule-width: 2px;
+	-webkit-column-rule-width: 2px;
+}

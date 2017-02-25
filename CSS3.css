@@ -1,0 +1,167 @@
+#box {
+    background: red;
+    height: 150px;
+    width: 50%;
+    margin: 40px auto;
+    box-sizing: border-box; /* CSS3 */
+    padding: 50px; /* Now does't adjust height and width */
+    border-radius: 20px; /* Adds rounded corners */
+    -moz-border-radius: 20px; /* Mozilla Support */
+    -webkit-border-radius: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+}
+
+#cont1 {
+    background: #1b4e5e;
+    padding: 30px;
+    border-bottom: solid 5px black;
+	margin-top: 55px;
+}
+
+body #colors {
+    background: rgba(25,52,84,1); /* CSS3 */
+    /* Last value is alpha channel which adjusts how transparent the color is */
+    color: white;
+    height: 470px;
+    border-bottom: dashed 5px white;
+	padding: 50px;
+	padding-bottom: 0px;
+}
+
+#colors #container {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    background: rgba(45,32,65,1);
+    margin: auto;
+    padding: 10px;
+    border: solid 5px white;
+}
+
+#colors #container2 {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    background: linear-gradient(blue,green);
+    /* CSS3 */
+    margin: 30px auto;
+    padding: 10px;
+    border: solid 5px white;
+}
+
+#colors #container3 {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    background: radial-gradient(black,red);
+    /* CSS3 */
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 5px white;
+}
+/* Style third section */
+body #blog {
+	background: #f2f2f2;
+	padding-bottom: 200px;
+}
+
+body #blog #cont2 {
+	width: 100%;
+	margin: auto;
+	background: url('Texture-26.png') top left;
+	background-size: 100%;
+	border: solid 2px gray;
+}
+body #blog #color-background {
+	background-color: rgb(255,255,255);
+	width: 50%;
+	margin: auto;
+	position: relative;
+	top: 100px;
+}
+body #blog h4 {
+	margin: 30px 30px;
+	margin-bottom: 0px;
+	font-size: 36;
+	font-family: Helvetica, monaco;
+}
+body #blog p {
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: monaco, monospace;
+}
+
+
+/* Format Links */
+a:link {
+    color: black;
+    font-family: Courier;
+    font: bold;
+    text-decoration: none; /* Removes the Underlined */
+    text-transform: lowercase;
+}
+a:visited {color: black;}
+a:hover {color: #1e6169;}
+nav{text-align: center;}
+nav a {font-weight: bold;}
+
+nav li {
+    color: white;
+    display: inline-block;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0px;
+    background: white;
+    list-style: none;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	border-bottom: solid 5px black;
+}
+
+/* Format Buttons */
+
+body #button {
+	background-color: purple;
+	padding: 100px;
+	height: 200px;
+}
+
+body .button-box {
+	background-color: red;
+	width: 94%;
+	display: inline-block;
+	margin: 10px;
+}
+
+body #button-container {
+	background: white;
+	width: 100%;
+	margin: auto;
+	height: 200px;
+}
+
+body #button h3 {
+	color: white;
+	text-align: center;
+}
+body #button-container #right {
+	background: black;
+	float: right;
+	width: 40%;
+	margin: 25px;
+}
+body #button-container #left {
+	background: black;
+	float: left;
+	width: 40%;
+	margin: 25px;
+}
+
+

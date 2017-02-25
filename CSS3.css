@@ -324,3 +324,17 @@ body #shadows {
 	-moz-column-rule-width: 2px;
 	-webkit-column-rule-width: 2px;
 }
+
+/* Footer Styles */
+#footer {
+	background: black;
+	padding: 20px;
+	border-top: solid white 3px;
+}
+#footer small {
+	text-align: center;
+	display: block;
+	margin: auto;
+	color: white;
+	font-family: Helvetica, Times, sans-serif;
+}

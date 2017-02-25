@@ -1,0 +1,250 @@
+/* Styling Web Forms */
+
+h1 {
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#forms-container {
+    width: 75%;
+    margin: 0 auto;
+}
+#forms-container h1 {
+	color: white;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+	padding-top: 40px;
+}
+
+fieldset {
+    padding: 40px;
+    border: solid 1px #aaa;
+    background: url('red.jpg');
+}
+
+form {
+    margin-top: 40px;
+	margin-bottom: 0px;
+}
+fieldset legend {
+    background: white;
+    padding: 10px;
+    border: solid 1px #454545;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+	padding: 2%;
+    border:solid 1px #454545;
+    display: inline-block;
+    width: 75%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+    border-top: none;
+}
+
+textarea {
+    resize: none;
+}
+
+form label {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #72c3ca;
+    display: inline-block;
+    width: 71%;
+    padding: 2%;
+	margin: 0px;
+    color: white;
+
+}
+
+input[type="submit"] {
+	margin-top: 20px;
+    background: none;
+    background: url('button_background.jpg') repeat-x;
+    height: 40px;
+    border: solid 1px #777;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: Monaco, monospace;
+    font-size: 12px;
+    font-style: bold;
+	display: block;
+
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="submit"]: active {
+    border-color: #111;
+    outline-color: red;
+}
+
+/* Forms Background */
+#forms-background {
+	background-color: lightgray;
+	padding-bottom: 50px;
+}
+
+/* Bio Styles */
+#img-cont {
+	padding-top: 50px;
+	background-color: aquamarine;
+	height: 760px;
+}
+ul a img {
+	width: 100%;
+	height: 705px;
+}
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 600px;
+	height: 705px;
+	border: solid 5px white;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+
+span.text-content {
+	
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 705px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/*Format Text */
+.text-content h1 {
+	line-height: 50px;
+	font-family: courier,helvetica;
+	margin: 20px;
+}
+
+
+
+/*
+#bio {
+	background-color:aquamarine;
+	display: block;
+	width: 100%;
+	padding: none;
+	margin: none;
+}
+   .bio-image
+{
+    background:url('Fountain.jpg')top left no-repeat;
+	height: 1000px;
+    background-size: 100%;
+    width:50%;
+    display: block;
+    float:left;
+}
+
+.bio-image  a {
+    display: none;
+	color: white;
+}
+
+.bio-image  a:hover {
+    display: block;
+}
+
+
+/*
+
+#bio #text {
+	vertical-align: middle;
+	margin: auto;
+	background-color: rgba(255,255,255,0.3);
+	display: block;
+	width: 50%;
+}
+
+#bio img {
+	position: relative;
+	top: -35px;
+	width: 100%;
+	height: auto;;
+}
+
+#bio p {
+	color: rgba(255,255,255,0);
+	text-align: center;
+}
+
+#bio p:hover {
+	color: rgba(255,255,255,0.8);
+	position: relative;
+	text-align: center;
+	top: 400px;
+}
+/*
+
+#bio #bio-img {
+	margin: auto;
+	display: block;
+	height: 1000px;
+	width: 100%;
+	background: url('Fountain.jpg')top left no-repeat;
+	background-size: 100%;
+	
+}
+

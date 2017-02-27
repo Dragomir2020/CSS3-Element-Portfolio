@@ -3,6 +3,7 @@ body{
 }
 
 #box {
+    min-width: 250px;
     background: red;
     height: 150px;
     width: 50%;

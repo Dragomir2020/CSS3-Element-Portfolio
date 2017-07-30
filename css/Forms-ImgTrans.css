@@ -19,7 +19,7 @@ h1 {
 fieldset {
     padding: 40px;
     border: solid 1px #aaa;
-    background: url('red.jpg');
+    background: url('../img/red.jpg');
 }
 
 form {
@@ -66,7 +66,7 @@ form label {
 input[type="submit"] {
 	margin-top: 20px;
     background: none;
-    background: url('button_background.jpg') repeat-x;
+    background: url('../img/button_background.jpg') repeat-x;
     height: 40px;
     border: solid 1px #777;
     padding-left: 20px;

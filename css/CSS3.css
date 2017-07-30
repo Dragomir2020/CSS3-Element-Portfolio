@@ -78,7 +78,7 @@ body #blog {
 body #blog #cont2 {
 	width: 100%;
 	margin: auto;
-	background: url('Texture-26.png') top left;
+	background: url('../img/Texture-26.png') top left;
 	background-size: 100%;
 	border: solid 2px gray;
 	padding-bottom: 15px;
